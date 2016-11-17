@@ -7,6 +7,7 @@
 
 import sys
 from _hashlib import new
+sequence = sys.argv[1]
 
 #===============================================================================
 # filename = sys.argv[1]
@@ -60,7 +61,9 @@ def ViterbiMethod(matrixStart,state,obMatrix,sequence) :
                 DebugWriteStr('debug now')
             #Iter to find max from the state
             while stateIndex < stateLength :
-                avalue= (VM[seqIndex-1][stateIndex])* (MatrixHotCold[stateIndex][evalstateIndex])*obMatrix[int(sequence[seqIndex])-1][evalstateIndex]
+                avalue= ((VM[seqIndex-1][stateIndex])*
+                (MatrixHotCold[stateIndex][evalstateIndex])*
+                obMatrix[int(sequence[seqIndex])-1][evalstateIndex])
                 maxvalue,maxPrevState =maxfunc(maxvalue,maxPrevState,avalue,stateIndex)
                 VM[seqIndex][evalstateIndex] = maxvalue
                 BackpointerMatrix[seqIndex-1][evalstateIndex] = maxPrevState #sequence -1
@@ -122,7 +125,7 @@ def ViterbiMethod(matrixStart,state,obMatrix,sequence) :
     stateSequence[seqIndex-1] = maxState
     seqIndex-=1
     DebugWriteStr("\n SI : ")
-    print("The most likely weather for the Sequence is",sequence)
+    print("The most likely weather for the Sequence[",sequence,"]")
     while(seqIndex >0):
         DebugWriteStr(str(seqIndex))
         stateSequence[seqIndex-1] =BackpointerMatrix[seqIndex-1][stateSequence[seqIndex]]
@@ -161,7 +164,8 @@ DebugWriteNL("ObMatrix",ObMatrix)
 #sequence1 = '3311223'
 sequence1 = '331122313'
 sequence2 = '331123312'
-
+print("The Sequence Input from Command Line is",sequence)
+ViterbiMethod(MatrixStart,state,ObMatrix,sequence)
 sequence=sequence1
 ViterbiMethod(MatrixStart,state,ObMatrix,sequence)
 sequence=sequence2

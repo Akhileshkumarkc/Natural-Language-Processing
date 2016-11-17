@@ -30,6 +30,7 @@ import re
 # Modules
 
 def DebugWrite(obj):
+    #Write Debug Object
     debugFile.write(str(obj))
 def DebugWriteNL(obj):
     DebugWrite(obj)

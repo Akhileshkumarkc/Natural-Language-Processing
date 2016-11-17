@@ -5,6 +5,236 @@ Start Viterbi Algo
 ***********************************************************
 seqIndex = 1
 evalstateIndex = 0
+Maxvalue0.044800000000000006
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.32000000000000006
+ value 2 (Hot/cold sequence)0.7
+ value 3 (seq/(hot/cold)0.2
+ fewmore
+
+ stateIndex =0
+ evalstateIndex =0
+ VM[seqIndex][evalstateIndex] = maxvalue 0.044800000000000006
+***********************************************************
+***********************************************************
+seqIndex = 1
+evalstateIndex = 0
+Maxvalue0.044800000000000006
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.020000000000000004
+ value 2 (Hot/cold sequence)0.4
+ value 3 (seq/(hot/cold)0.2
+ fewmore
+
+ stateIndex =1
+ evalstateIndex =0
+ VM[seqIndex][evalstateIndex] = maxvalue 0.044800000000000006
+***********************************************************
+***********************************************************
+seqIndex = 1
+evalstateIndex = 1
+Maxvalue0.04800000000000001
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.32000000000000006
+ value 2 (Hot/cold sequence)0.3
+ value 3 (seq/(hot/cold)0.5
+ fewmore
+
+ stateIndex =0
+ evalstateIndex =1
+ VM[seqIndex][evalstateIndex] = maxvalue 0.04800000000000001
+***********************************************************
+***********************************************************
+seqIndex = 1
+evalstateIndex = 1
+Maxvalue0.04800000000000001
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.020000000000000004
+ value 2 (Hot/cold sequence)0.6
+ value 3 (seq/(hot/cold)0.5
+ fewmore
+
+ stateIndex =1
+ evalstateIndex =1
+ VM[seqIndex][evalstateIndex] = maxvalue 0.04800000000000001
+***********************************************************
+***********************************************************
+seqIndex = 2
+evalstateIndex = 0
+Maxvalue0.012544000000000003
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.044800000000000006
+ value 2 (Hot/cold sequence)0.7
+ value 3 (seq/(hot/cold)0.4
+ fewmore
+
+ stateIndex =0
+ evalstateIndex =0
+ VM[seqIndex][evalstateIndex] = maxvalue 0.012544000000000003
+***********************************************************
+***********************************************************
+seqIndex = 2
+evalstateIndex = 0
+Maxvalue0.012544000000000003
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.04800000000000001
+ value 2 (Hot/cold sequence)0.4
+ value 3 (seq/(hot/cold)0.4
+ fewmore
+
+ stateIndex =1
+ evalstateIndex =0
+ VM[seqIndex][evalstateIndex] = maxvalue 0.012544000000000003
+***********************************************************
+***********************************************************
+seqIndex = 2
+evalstateIndex = 1
+Maxvalue0.0053760000000000014
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.044800000000000006
+ value 2 (Hot/cold sequence)0.3
+ value 3 (seq/(hot/cold)0.4
+ fewmore
+
+ stateIndex =0
+ evalstateIndex =1
+ VM[seqIndex][evalstateIndex] = maxvalue 0.0053760000000000014
+***********************************************************
+***********************************************************
+seqIndex = 2
+evalstateIndex = 1
+Maxvalue0.011520000000000002
+maxPrevState1
+Three values:
+
+ value 1 (previous Value)0.04800000000000001
+ value 2 (Hot/cold sequence)0.6
+ value 3 (seq/(hot/cold)0.4
+ fewmore
+
+ stateIndex =1
+ evalstateIndex =1
+ VM[seqIndex][evalstateIndex] = maxvalue 0.011520000000000002
+***********************************************************
+***********************************************************
+seqIndex = 3
+evalstateIndex = 0
+Maxvalue0.0017561600000000005
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.012544000000000003
+ value 2 (Hot/cold sequence)0.7
+ value 3 (seq/(hot/cold)0.2
+ fewmore
+
+ stateIndex =0
+ evalstateIndex =0
+ VM[seqIndex][evalstateIndex] = maxvalue 0.0017561600000000005
+***********************************************************
+***********************************************************
+seqIndex = 3
+evalstateIndex = 0
+Maxvalue0.0017561600000000005
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.011520000000000002
+ value 2 (Hot/cold sequence)0.4
+ value 3 (seq/(hot/cold)0.2
+ fewmore
+
+ stateIndex =1
+ evalstateIndex =0
+ VM[seqIndex][evalstateIndex] = maxvalue 0.0017561600000000005
+***********************************************************
+***********************************************************
+seqIndex = 3
+evalstateIndex = 1
+Maxvalue0.0018816000000000004
+maxPrevState0
+Three values:
+
+ value 1 (previous Value)0.012544000000000003
+ value 2 (Hot/cold sequence)0.3
+ value 3 (seq/(hot/cold)0.5
+ fewmore
+
+ stateIndex =0
+ evalstateIndex =1
+ VM[seqIndex][evalstateIndex] = maxvalue 0.0018816000000000004
+***********************************************************
+***********************************************************
+seqIndex = 3
+evalstateIndex = 1
+Maxvalue0.0034560000000000007
+maxPrevState1
+Three values:
+
+ value 1 (previous Value)0.011520000000000002
+ value 2 (Hot/cold sequence)0.6
+ value 3 (seq/(hot/cold)0.5
+ fewmore
+
+ stateIndex =1
+ evalstateIndex =1
+ VM[seqIndex][evalstateIndex] = maxvalue 0.0034560000000000007
+***********************************************************
+done
+===========================================================
+
+ currentSequence:  0  =  3
+
+State 0	0.32000000000000006Previous State(3)
+State 1	0.020000000000000004Previous State(3)
+
+
+ currentSequence:  1  =  1
+
+State 0	0.044800000000000006Previous State(0)
+State 1	0.04800000000000001Previous State(0)
+
+
+ currentSequence:  2  =  2
+
+State 0	0.012544000000000003Previous State(0)
+State 1	0.011520000000000002Previous State(1)
+
+
+ currentSequence:  3  =  1
+
+State 0	0.0017561600000000005Previous State(0)
+State 1	0.0034560000000000007Previous State(1)
+
+===========================================================
+
+ maxvalue0.0034560000000000007
+ SI : 
+3
+2
+1
+	 Hot
+	 Cold
+	 Cold
+	 Cold
+Start Viterbi Algo
+***********************************************************
+seqIndex = 1
+evalstateIndex = 0
 Maxvalue0.08960000000000001
 maxPrevState0
 Three values:
